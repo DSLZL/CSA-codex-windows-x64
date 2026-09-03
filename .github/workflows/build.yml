@@ -27,7 +27,7 @@ jobs:
   build:
     permissions:
       contents: read
-    uses: DSLZL/CSA-codex/.github/workflows/build-patched-codex-target.yml@157e19f03d43227699c2d03131e22ad95e09513d
+    uses: DSLZL/CSA-codex/.github/workflows/build-patched-codex-target.yml@16e4853d850f261822e9a698b4646a444370425d
     with:
       builder_repository: DSLZL/CSA-codex-windows-x64
       cache_mode: read-write
